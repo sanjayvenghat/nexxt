@@ -1,0 +1,218 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;  
+
+
+.header 
+{
+  height: 10vh;
+  width: 100%;
+}   
+
+.main 
+{
+  height: 200vh;
+  width: 100%; 
+  
+}  
+.header 
+{
+  height: 10vh;
+  width: 100%;
+}
+.suscb 
+{
+  height: 40px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+.suscb>* 
+{
+  margin-left: 10px;
+}
+.logo 
+{
+  background-color: rgba(255, 255, 255, 0.338); 
+  border: 1px solid black; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  border-radius: 50%; 
+  
+  
+} 
+.cart 
+{
+  background-color: yellow; 
+   
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+ border-radius: 50%; 
+
+ height: 50px;
+ width: 0px;  
+ 
+  
+} 
+.search 
+{
+  height: 40px;
+  width:40px;
+  border-radius: 10px;
+} 
+.slider 
+{
+  height: 80vh;
+  width: 100%; 
+  background-image: url('./HOMEPAGE_-_Cold_Brew_2024_-_desktop_header_2_d6b9fc58-2339-443f-9310-aad098f2b97e.webp'); 
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+}   
+.texer 
+{
+  margin-top: 15px;
+}
+.star 
+{
+  height: 5vh;
+  width: 100%;
+}
+.itemcart 
+{
+  height: 400px;
+  width: 100%; 
+  display: flex;
+  margin: 10px; 
+  overflow-x:scroll ;
+  
+}  
+
+.itemcart::-webkit-scrollbar 
+{
+  display: none;
+}
+.iteim 
+{
+  min-height: 300px;
+  min-width: 300px; 
+  margin: 10px; 
+  display: flex;
+  align-items: center; 
+  flex-direction: column; 
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.219);
+}
+.iteim img 
+{
+  height: 200px;
+  width: 80%; 
+  margin-top: 20px;
+} 
+.cos 
+{
+  width: 80%;
+  background-color: yellow; 
+  margin-top: 10px; 
+  height: 10vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  font-weight: bold; 
+  
+} 
+.feeder 
+{
+  width: 100%;
+  height: 10vh;
+  justify-content: center;
+  align-items: center; 
+  font-size: 30px; 
+  margin: 10px;
+} 
+.left 
+{
+  transform: rotate(180deg);
+}  
+.juke 
+{
+  flex-direction: column;
+}  
+.juke h1 
+{
+  margin-left: 50px; 
+  font-size: 80px;
+}  
+
+.juke>* 
+{
+  margin-left: 120px;
+}
+.juke p 
+{
+  width: 50%; 
+  margin-left: 50px;
+ 
+  
+} 
+.shopping 
+{
+  max-width: 400px;
+  background-color: black;
+  color:white; 
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin-left: 20px;
+  height: 50px; 
+  border-radius: 20px;
+} 
+.shopping:hover 
+{
+  background-color: rgba(0, 0, 0, 0.29);
+} 
+.icon>* 
+{
+  margin: 50px;
+} 
+.back 
+{
+  height: 80px; 
+  height: 80px;
+  border: 1px solid black; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  border-radius: 50%;
+}
+@media (min-width:720px) 
+ { 
+  .shower 
+  {
+    display: none;
+  } 
+  
+  
+}  
+@media (max-width:720px) 
+ { 
+    .vacshow 
+    {
+      flex-direction: column;  
+      justify-content: center; 
+      align-items: center; 
+      background-color: white; 
+      border-radius: 10px;
+      position: absolute; 
+      top:20vh; 
+      right: 30px;
+    }
+  .vacshow>* 
+  {
+    padding:20px; 
+  
+  } 
+  
+} 
